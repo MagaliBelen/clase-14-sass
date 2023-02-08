@@ -1,0 +1,19 @@
+h1{
+    color: $rojizo;
+    background-color: $amarillo;
+    height: (50vh)/2;
+    width: (100vh) - (75vh);
+    //height: (50vh)*2;
+}
+
+$nocturno: true;
+
+@if ($nocturno == true){
+h1{
+    color: black;
+}}
+@else {
+    h1{
+        color: $verde-fuerte;
+    }
+}

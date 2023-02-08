@@ -1,0 +1,37 @@
+/*Variables globales*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+h1 {
+  color: #EE6055;
+  background-color: #FFD97D;
+  height: 25vh;
+  width: 25vh; }
+
+h1 {
+  color: black; }
+
+h2 {
+  background-color: #AAF683; }
+
+.texto-centrado, h2 {
+  text-align: center;
+  padding: 2rem 0; }
+
+.fondo-verde, h2 {
+  background-color: #60D394; }
+
+.parrafo2 {
+  background-color: #FF9B85;
+  color: black;
+  text-align: center;
+  font-family: "Roboto", sans-serif; }
+
+.parrafo1 {
+  background-color: #60D394;
+  color: black;
+  text-align: center;
+  font-family: "Roboto", sans-serif; }

@@ -1,0 +1,15 @@
+h2{
+    background-color: $verde-lima;
+    @extend .texto-centrado;
+    @extend .fondo-verde;
+}
+
+//EXTEND
+.texto-centrado{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.fondo-verde{
+    background-color: $verde-fuerte;
+}

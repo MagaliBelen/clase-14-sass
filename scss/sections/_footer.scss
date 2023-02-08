@@ -1,0 +1,18 @@
+//mixin con parametro
+
+@mixin fondo-color ($fondo, $espinaca){
+    background-color: $fondo;
+    color: black;
+    text-align: center;
+    font-family: $espinaca;
+}
+
+.parrafo2{
+    @include fondo-color($coral, $typo-principal);
+}
+
+.parrafo1{
+    @include fondo-color($verde-fuerte, $typo-principal);
+}
+
+//si pongo 2 argumentos, todas tienen que tener 2 argumentos
